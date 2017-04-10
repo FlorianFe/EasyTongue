@@ -1,0 +1,32 @@
+<!-- Imports Polymer -->
+<link rel="import" href="../../../../bower_components/polymer/polymer.html">
+
+<!-- Imports Dependencies -->
+<link rel="import" href="../../../../bower_components/iron-pages/iron-pages.html">
+<link rel="import" href="../../../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../../../bower_components/paper-dialog/paper-dialog.html">
+<link rel="import" href="../../../../bower_components/paper-dialog-scrollable/paper-dialog-scrollable.html">
+
+<!-- Defines element markup -->
+<dom-module id="key-binding-selector">
+
+  <!-- Loads styles -->
+  <link rel="import" type="css" href="key-binding-selector.css">
+
+  <template>
+
+    <paper-button id="key-button" raised>[[selectedKeyCombination]]</paper-button>
+
+    <paper-dialog id="paper-dialog" with-backdrop>
+      <paper-dialog-scrollable>
+        Press Key Combination
+      </paper-dialog-scrollable>
+    </paper-dialog>
+  </template>
+
+  <!-- Loads JavaScript -->
+  <script src="mousetrap/mousetrap.js"></script>
+  <script src="mousetrap/mousetrap-record.js"></script>
+
+  <script src="key-binding-selector.js"></script>
+</dom-module>

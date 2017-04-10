@@ -1,0 +1,54 @@
+<!-- Imports Polymer -->
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+
+<!-- Imports Dependencies -->
+<link rel="import" href="../../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../../bower_components/iron-localstorage/iron-localstorage.html">
+
+<link rel="import" href="key-binding-selector/key-binding-selector.html">
+
+<!-- Defines element markup -->
+<dom-module id="shortcuts-settings-section">
+
+  <!-- Loads styles -->
+  <link rel="import" type="css" href="shortcuts-settings-section.css">
+
+  <template>
+
+    <iron-localstorage
+      id="open-window-key-combination-storage"
+      name="openWindowKeyCombination"
+      value="[[openWindowKeyCombination]]"
+    ></iron-localstorage>
+
+    <iron-localstorage
+      id="swap-languages-key-combination-storage"
+      name="swapLanguagesKeyCombination"
+      value="[[swapLanguagesKeyCombination]]"
+    ></iron-localstorage>
+
+    <paper-card>
+      <table>
+        <tr>
+          <td>Open Window</td>
+          <td>
+            <key-binding-selector
+              selected-key-combination="{{openWindowKeyCombination}}"
+            ></key-binding-selector>
+          </td>
+        </tr>
+        <tr>
+          <td>Swap Languages</td>
+          <td>
+            <key-binding-selector
+              selected-key-combination="{{swapLanguagesKeyCombination}}"
+            ></key-binding-selector>
+          </td>
+        </tr>
+      </table>
+    </paper-card>
+  </template>
+
+  <!-- Loads JavaScript -->
+  <script src="shortcuts-settings-section.js"></script>
+</dom-module>

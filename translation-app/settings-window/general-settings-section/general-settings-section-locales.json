@@ -1,0 +1,38 @@
+{
+  "de":
+  {
+    "Auto Launch": "Automatischer Start",
+    "Language": "Sprache",
+    "Exit Application": "Applikation Beenden"
+  },
+  "en":
+  {
+    "Auto Launch": "Auto Launch",
+    "Language": "Language",
+    "Exit Application": "Exit Application"
+  },
+  "fr":
+  {
+    "Auto Launch": "???",
+    "Language": "???",
+    "Exit Application": "???"
+  },
+  "es":
+  {
+    "Auto Launch": "???",
+    "Language": "???",
+    "Exit Application": "???"
+  },
+  "tr":
+  {
+    "Auto Launch": "???",
+    "Language": "???",
+    "Exit Application": "???"
+  },
+  "ru":
+  {
+    "Auto Launch": "???",
+    "Language": "???",
+    "Exit Application": "???"
+  }
+}
