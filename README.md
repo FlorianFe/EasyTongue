@@ -1,6 +1,6 @@
-#EasyTongue
+# EasyTongue
 
-##Preview
+## Preview
 
 ![screenshot 1](https://florianfe.github.io/screenshots/easy-tongue/screenshot-1.png)
 **Easy to use translation app**
