@@ -1,0 +1,26 @@
+
+
+iron-selector
+{
+  display: flex;
+  background-color: #f5f5f5;
+}
+
+general-settings-section
+{
+  width: 100%;
+}
+
+settings-tab
+{
+  width: 25%;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  border-right: 1px ridge #ddd;
+}
+
+.iron-selected
+{
+  background-color: #fff;
+  cursor: auto;
+}

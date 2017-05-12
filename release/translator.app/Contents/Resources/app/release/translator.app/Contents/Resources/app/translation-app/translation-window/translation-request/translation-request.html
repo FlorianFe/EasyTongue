@@ -1,0 +1,27 @@
+<!-- Imports Polymer -->
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+
+<!-- Imports Dependencies -->
+<link rel="import" href="../../../bower_components/iron-ajax/iron-ajax.html">
+
+<!-- Defines element markup -->
+<dom-module id="translation-request">
+
+  <!-- Loads styles -->
+  <link rel="import" type="css" href="translation-request.css">
+
+  <template>
+
+    <iron-ajax
+      id="iron-ajax"
+      url="http://www.transltr.org/api/translate"
+      params="[[getTransltrURLParams(text, from, to)]]"
+      handle-as="json"
+      last-response="{{_response}}"
+    ></iron-ajax>
+
+  </template>
+
+  <!-- Loads JavaScript -->
+  <script src="translation-request.js"></script>
+</dom-module>

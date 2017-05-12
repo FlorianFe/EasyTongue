@@ -1,0 +1,14 @@
+:host
+{
+  display: inline;
+}
+
+#paper-dialog
+{
+  width: 300px;
+}
+
+table
+{
+  width: 100%;
+}

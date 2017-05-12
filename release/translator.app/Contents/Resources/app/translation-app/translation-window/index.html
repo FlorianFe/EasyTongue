@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Translation App</title>
+
+    <style>
+
+    body
+    {
+      margin: 0;
+      padding: 0;
+    }
+
+    </style>
+
+    <link rel="import" href="translation-window.html">
+  </head>
+  <body>
+    <translation-window></translation-window>
+
+    <script>
+
+      let electron = require('electron');
+
+      let remote = electron.remote;
+      let screen = electron.screen;
+
+      let currentWindow = remote.getCurrentWindow();
+
+      let screenWidth = screen.getPrimaryDisplay().workAreaSize.width;
+      let screenHeight = screen.getPrimaryDisplay().workAreaSize.height;
+
+      let windowWidth = document.body.clientWidth;
+      let windowHeight = document.body.clientHeight;
+
+      console.log(screenWidth, screenHeight, windowWidth, windowHeight);
+      console.log(screen.getPrimaryDisplay().workAreaSize);
+
+      let x = screenWidth/2 - windowWidth/2;
+      let y = screenHeight/2 - windowHeight/2;
+
+      currentWindow.setSize(windowWidth, windowHeight);
+
+    </script>
+  </body>
+</html>
