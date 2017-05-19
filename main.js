@@ -13,7 +13,7 @@ const menubar = createMenubar(
   index: path.join('file://', __dirname, 'translation-app/translation-window/index.html'),
   preloadWindow: true,
   backgroundColor: '#fff',
-  icon: "easy-tongue-icon@2x.png"
+  icon: path.join(__dirname, "easy-tongue-icon@2x.png")
 });
 
 menubar.on('ready', () =>

@@ -5,15 +5,23 @@
   "main": "main.js",
   "scripts": {
     "start": "ELECTRON_ENABLE_LOGGING=1 electron .",
-    "build": "electron-packager . --overwrite"
+    "pack": "build --dir",
+    "dist": "build"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "build":
+  {
+    "appId": "de.florianfe.easytongue",
+    "mac":
+    {
+      "category": "public.app-category.utilities",
+      "icon": "easy-tongue-icon@2x"
+    }
+  },
+  "repository": "https://github.com/FlorianFe/EasyTongue",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "translation",
+    "polymer",
+    "electron"
   ],
   "author": "Florian Fechner",
   "license": "CC0-1.0",
@@ -23,7 +31,6 @@
   "dependencies": {
     "auto-launch": "^5.0.1",
     "electron-localshortcut": "^1.1.0",
-    "google-translate-api": "^2.2.2",
     "ipc": "0.0.1",
     "menubar": "^5.2.3",
     "path": "^0.12.7"
