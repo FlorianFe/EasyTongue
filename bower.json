@@ -1,6 +1,6 @@
 {
-  "name": "translator",
-  "description": "a menubar app for language translation",
+  "name": "EasyTongue",
+  "description": "a menubar app for easy language translation",
   "main": "main.js",
   "authors": [
     "FlorianFe"
