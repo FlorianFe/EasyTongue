@@ -21,7 +21,17 @@ Polymer(
   ],
   attached: function()
   {
+    const AutoLaunch = require('auto-launch');
+
+    let autoLaunch = new AutoLaunch({ name: 'EasyTongue' });
+
     this.loadResources(this.resolveUrl('general-settings-section-locales.json'));
+
+    autoLaunch.isEnabled().then((isEnabled) =>
+    {
+      this.autoLaunchEnabled = isEnabled;
+      this.$["autostart-checkbox"].checked = isEnabled;
+    });
   },
   ready: function()
   {
@@ -34,7 +44,7 @@ Polymer(
     const app = require('electron').remote.app;
     const AutoLaunch = require('auto-launch');
 
-    let autoLaunch = new AutoLaunch({ name: 'Translater' });
+    let autoLaunch = new AutoLaunch({ name: 'EasyTongue' });
 
     this.$["exit-button"].addEventListener('click', () =>
     {
@@ -45,7 +55,7 @@ Polymer(
     this.$["autostart-checkbox"].addEventListener('click', () =>
     {
       autoLaunch.isEnabled()
-      .then(function(isEnabled)
+      .then((isEnabled) =>
       {
         if(isEnabled)
         {
@@ -58,12 +68,6 @@ Polymer(
           console.log("Translator autostart enabled!");
         }
       });
-
-      autoLaunch.isEnabled().then(function(isEnabled)
-      {
-        this.autoLaunchEnabled = isEnabled;
-      });
-
     });
   }
 })
