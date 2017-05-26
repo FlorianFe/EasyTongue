@@ -1,7 +1,7 @@
 {
-  "name": "translator",
+  "name": "EasyTongue",
   "version": "1.0.0",
-  "description": "A smalll tranlator app, which uses the google translate API",
+  "description": "a menubar app for easy language translation",
   "main": "main.js",
   "scripts": {
     "start": "ELECTRON_ENABLE_LOGGING=1 electron .",
