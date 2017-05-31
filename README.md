@@ -15,5 +15,5 @@
 ![screenshot 4](https://florianfe.github.io/screenshots/easy-tongue/screenshot-4.png)
 
 ## Download
-<li><a href="https://florianfe.github.io/downloads/easy-tongue.dmg">Download for Mac (.dmg)</a></li>
-<li><a href="https://florianfe.github.io/downloads/easy-tongue.exe">Download for Windows (.exe)</a></li>
+<li><a href="https://github.com/FlorianFe/EasyTongue/releases/download/v1.0.1/easy-tongue.dmg">Download for Mac (.dmg)</a></li>
+<li><a href="https://github.com/FlorianFe/EasyTongue/releases/download/v1.0.1/easy-tongue.exe">Download for Windows (.exe)</a></li>
