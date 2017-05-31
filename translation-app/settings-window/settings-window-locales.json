@@ -34,5 +34,23 @@
     "General": "Общие",
     "Shortcuts": "Shortcuts",
     "Customize": "???"
+  },
+  "it":
+  {
+    "General": "Generale",
+    "Shortcuts": "Shortcuts",
+    "Customize": "???"
+  },
+  "pt-br":
+  {
+    "General": "Geral",
+    "Shortcuts": "Shortcuts",
+    "Customize": "???"
+  },
+  "ja":
+  {
+    "General": "一般的です",
+    "Shortcuts": "Shortcuts",
+    "Customize": "???"
   }
 }

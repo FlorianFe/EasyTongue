@@ -34,5 +34,23 @@
     "Auto Launch": "Автоматически Запуск",
     "Language": "Язык",
     "Exit Application": "Выход применение"
+  },
+  "it":
+  {
+    "Auto Launch": "Automatico lancio",
+    "Language": "Lingua",
+    "Exit Application": "Uscita applicazione"
+  },
+  "pt-br":
+  {
+    "Auto Launch": "Lançamento automático",
+    "Language": "Língua",
+    "Exit Application": "Aplicativo de saída"
+  },
+  "ja":
+  {
+    "Auto Launch": "自動 打ち上げ",
+    "Language": "言語",
+    "Exit Application": "出口 アプリケーション"
   }
 }

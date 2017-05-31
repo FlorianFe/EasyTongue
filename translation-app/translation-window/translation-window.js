@@ -1,3 +1,5 @@
+localStorage.clear(); // TODO : Remove later!
+
 Polymer(
 {
   is: 'translation-window',

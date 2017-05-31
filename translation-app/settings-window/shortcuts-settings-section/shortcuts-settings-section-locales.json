@@ -28,5 +28,20 @@
   {
     "Open Window": "Открыть окно",
     "Swap Languages": "Замена Языки"
+  },
+  "it":
+  {
+    "Open Window": "Aprire finestra",
+    "Swap Languages": "Scambiare Lingue"
+  },
+  "pt-br":
+  {
+    "Open Window": "Janela aberta",
+    "Swap Languages": "Trocar idiomas"
+  },
+  "ja":
+  {
+    "Open Window": "開く 窓",
+    "Swap Languages": "スワップ 言語"
   }
 }
