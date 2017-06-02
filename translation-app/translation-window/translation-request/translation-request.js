@@ -34,10 +34,25 @@ Polymer(
   },
   ready: function()
   {
-    this.$['iron-ajax'].addEventListener('error', () =>
+    this.$['iron-ajax'].addEventListener('error', (data) =>
     {
-      console.log("Error logged!")
-      this.translationText = "Service is unavaiable at the moment"
+      let request = data.detail.request;
+
+      console.log(request.status)
+
+      switch(request.status)
+      {
+        case 0:
+          this.translationText = "No Response from Server";
+          break;
+
+        case 500:
+          this.translationText = "";
+          break;
+
+        default:
+          this.translationText = request.statusText;
+      }
     });
   },
   getTransltrURLParams: function(text, from, to)
