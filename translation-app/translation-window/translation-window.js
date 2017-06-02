@@ -66,17 +66,6 @@ Polymer(
       from.focus();
     });
 
-    document.body.addEventListener('keyup', (e) =>
-    {
-      if(e.keyCode === 27)
-      {
-        from.value = '';
-        to.value = '';
-
-        currentWindow.hide();
-      }
-    });
-
     this.$['settings-icon'].addEventListener('click', () =>
     {
       const {ipcRenderer} = require('electron');
