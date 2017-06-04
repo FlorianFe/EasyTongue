@@ -13,6 +13,7 @@
 <link rel="import" href="../../bower_components/iron-localstorage/iron-localstorage.html">
 <link rel="import" href="../../bower_components/iron-selector/iron-selector.html">
 <link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+<link rel="import" href="../../bower_components/iron-a11y-keys/iron-a11y-keys.html">
 
 <link rel="import" href="../../bower_components/app-localize-behavior/app-localize-behavior.html">
 
@@ -58,6 +59,8 @@
       text="[[textToTranslate]]"
       translation-text="{{translationText}}"
     ></translation-request>
+
+    <iron-a11y-keys id="a11y" keys="esc" on-keys-pressed="_escapePressed"></iron-a11y-keys>
 
     <div class="content">
       <div class="row">

@@ -66,13 +66,13 @@ Polymer(
       from.focus();
     });
 
+    const {ipcRenderer} = require('electron');
+
     this.$['settings-icon'].addEventListener('click', () =>
     {
-      const {ipcRenderer} = require('electron');
       ipcRenderer.send('settings-icon-click', {});
     });
 
-    const {ipcRenderer} = require('electron');
     ipcRenderer.on('swapLanguagesKeyCombinationChange', (e, arg) =>
     {
       let keyCombination = arg.keyCombination;
@@ -80,10 +80,12 @@ Polymer(
       Mousetrap.bind(keyCombination, () =>
       {
         let swapContainer = this.sourceLanguageIso;
+
         this.sourceLanguageIso = this.destinationLanguageIso;
         this.destinationLanguageIso = swapContainer;
       });
     });
+
   },
   attached: function()
   {
@@ -92,5 +94,15 @@ Polymer(
   add: function(summand1, summand2)
   {
     return summand1 + summand2;
+  },
+  _escapePressed: function(data)
+  {
+    let remote = require('electron').remote;
+    let currentWindow = remote.getCurrentWindow();
+
+    this.$["source-input"].value = '';
+    this.$["destination-input"].value = '';
+
+    currentWindow.hide();
   }
 });

@@ -42,11 +42,6 @@ menubar.on('ready', () =>
     {
       menubar.window.show();
     });
-
-    globalShortcut.register("esc", () =>
-    {
-      menubar.window.hide();
-    });
   });
 
   ipcMain.on('swapLanguagesKeyCombinationChange', (e, arg) =>

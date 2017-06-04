@@ -34,6 +34,7 @@
     "paper-swatch-picker": "PolymerElements/paper-swatch-picker#^1.0.2",
     "iron-localstorage": "PolymerElements/iron-localstorage#^1.0.6",
     "iron-ajax": "PolymerElements/iron-ajax#^1.4.3",
-    "app-localize-behavior": "PolymerElements/app-localize-behavior#^0.10.2"
+    "app-localize-behavior": "PolymerElements/app-localize-behavior#^0.10.2",
+    "iron-a11y-keys": "^2.0.0"
   }
 }
