@@ -6,7 +6,6 @@
 ![screenshot 1](https://florianfe.github.io/screenshots/easy-tongue/screenshot-1.png)
 
 ### Available in twelve different languages 
-![screenshot 2](https://florianfe.github.io/screenshots/easy-tongue/screenshot-2.png)
 - 🇬🇧 English
 - 🇩🇪 German
 - 🇫🇷 French
@@ -19,6 +18,8 @@
 - 🇨🇳 Simplified Chinese
 - 🇮🇳 Hindi
 - 🇵🇱 Polish
+![screenshot 2](https://florianfe.github.io/screenshots/easy-tongue/screenshot-2.png)
+
 
 ### Option to start on bootup
 ![screenshot 3](https://florianfe.github.io/screenshots/easy-tongue/screenshot-3.png)
