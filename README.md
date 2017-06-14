@@ -5,8 +5,20 @@
 ### Easy to use translation app
 ![screenshot 1](https://florianfe.github.io/screenshots/easy-tongue/screenshot-1.png)
 
-### Available in nine different languages
+### Available in twelve different languages 
 ![screenshot 2](https://florianfe.github.io/screenshots/easy-tongue/screenshot-2.png)
+- 🇬🇧 English
+- 🇩🇪 German
+- 🇫🇷 French
+- 🇪🇸 Spanish
+- 🇹🇷 Turkish
+- 🇷🇺 Russian
+- 🇮🇹 Italian
+- 🇧🇷 Portuguese
+- 🇯🇵 Japanese
+- 🇨🇳 Simplified Chinese
+- 🇮🇳 Hindi
+- 🇵🇱 Polish
 
 ### Option to start on bootup
 ![screenshot 3](https://florianfe.github.io/screenshots/easy-tongue/screenshot-3.png)
@@ -15,5 +27,5 @@
 ![screenshot 4](https://florianfe.github.io/screenshots/easy-tongue/screenshot-4.png)
 
 ## Download
-<li><a href="https://github.com/FlorianFe/EasyTongue/releases/download/v1.0.3/EasyTongue.dmg">Download for Mac (version 1.0.3)</a></li>
-<li><a href="https://github.com/FlorianFe/EasyTongue/releases/download/v1.0.3/EasyTongue.exe">Download for Windows (version 1.0.3)</a></li>
+<li><a href="https://github.com/FlorianFe/EasyTongue/releases/download/v1.0.4/EasyTongue.dmg">Download for Mac (version 1.0.4)</a></li>
+<li><a href="https://github.com/FlorianFe/EasyTongue/releases/download/v1.0.4/EasyTongue.exe">Download for Windows (version 1.0.4)</a></li>
