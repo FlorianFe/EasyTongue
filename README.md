@@ -6,18 +6,26 @@
 ![screenshot 1](https://florianfe.github.io/screenshots/easy-tongue/screenshot-1.png)
 
 ### Available in twelve different languages 
-- 🇬🇧 English
-- 🇩🇪 German
-- 🇫🇷 French
-- 🇪🇸 Spanish
-- 🇹🇷 Turkish
-- 🇷🇺 Russian
-- 🇮🇹 Italian
-- 🇧🇷 Portuguese
-- 🇯🇵 Japanese
-- 🇨🇳 Simplified Chinese
-- 🇮🇳 Hindi
-- 🇵🇱 Polish
+
+<table>
+  <tr>
+    <td>🇬🇧 English</td>
+    <td>🇩🇪 German</td>
+    <td>🇫🇷 French</td>
+    <td>🇪🇸 Spanish</td>
+    <td>🇹🇷 Turkish</td>
+    <td>🇷🇺 Russian</td>
+  </tr>
+  <tr>
+    <td>🇮🇹 Italian</td>
+    <td>🇧🇷 Portuguese</td>
+    <td>🇯🇵 Japanese</td>
+    <td>🇨🇳 Simplified Chinese</td>
+    <td>🇮🇳 Hindi</td>
+    <td>🇵🇱 Polish</td>
+  </tr>
+</table>
+
 ![screenshot 2](https://florianfe.github.io/screenshots/easy-tongue/screenshot-2.png)
 
 
