@@ -43,5 +43,20 @@
   {
     "Open Window": "開く 窓",
     "Swap Languages": "スワップ 言語"
+  },
+  "zh-CHS":
+  {
+    "Open Window": "打开 窗口",
+    "Swap Languages": "交换 语言"
+  },
+  "hi":
+  {
+    "Open Window": "खुला खिड़की",
+    "Swap Languages": "विनिमय भाषाओं"
+  },
+  "pl":
+  {
+    "Open Window": "Otwórz okno",
+    "Swap Languages": "Zamiana Języki"
   }
 }

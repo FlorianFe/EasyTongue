@@ -52,5 +52,23 @@
     "Auto Launch": "自動 打ち上げ",
     "Language": "言語",
     "Exit Application": "出口 アプリケーション"
+  },
+  "zh-CHS":
+  {
+    "Auto Launch": "自动 发射",
+    "Language": "语言",
+    "Exit Application": "退出 应用程序"
+  },
+  "hi":
+  {
+    "Auto Launch": "ऑटो प्रक्षेपण",
+    "Language": "भाषा",
+    "Exit Application": "बाहर निकलें अनुप्रयोग"
+  },
+  "pl":
+  {
+    "Auto Launch": "Automatyczny uruchomić",
+    "Language": "Język",
+    "Exit Application": "Wyjście podanie"
   }
 }

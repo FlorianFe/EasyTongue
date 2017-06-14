@@ -1,22 +1,10 @@
-localStorage.clear(); // TODO : Remove later!
-
 Polymer(
 {
   is: 'translation-window',
   property:
   {
-    sourceLanguageIso:
-    {
-      type: String,
-      value: "de"
-    },
-    destinationLanguageIso:
-    {
-      type: String,
-      value: "en"
-    },
-    //languageShortcuts: Array,
-    textToTranslate: String
+    sourceLanguageIso: String,
+    destinationLanguageIso: String
   },
   behaviors:
   [
@@ -32,12 +20,25 @@ Polymer(
     {
       let sourceLanguageIso = this.$['source-language-iso-storage'].value;
       this.sourceLanguageIso = sourceLanguageIso;
+      console.log(this.sourceLanguageIso);
+    });
+
+    this.$['source-language-iso-storage'].addEventListener('iron-localstorage-load-empty', () =>
+    {
+      this.sourceLanguageIso = 'en';
+      console.log("empty");
     });
 
     this.$['destination-language-iso-storage'].addEventListener('iron-localstorage-load', () =>
     {
       let destinationLanguageIso = this.$['destination-language-iso-storage'].value;
       this.destinationLanguageIso = destinationLanguageIso;
+    });
+
+    this.$['destination-language-iso-storage'].addEventListener('iron-localstorage-load-empty', () =>
+    {
+      this.destinationLanguageIso = 'de';
+      console.log("empty");
     });
 
     let from = document.getElementById('source-input');

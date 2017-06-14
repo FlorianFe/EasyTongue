@@ -70,7 +70,7 @@ menubar.on('ready', () =>
   ipcMain.on('settings-icon-click', (event, arg) =>
   {
     settingsWindow.show();
-    //settingsWindow.toggleDevTools();
+    settingsWindow.toggleDevTools();
   });
 });
 

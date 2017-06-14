@@ -1,6 +1,6 @@
 {
   "name": "EasyTongue",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "a menubar app for easy language translation",
   "main": "main.js",
   "scripts": {

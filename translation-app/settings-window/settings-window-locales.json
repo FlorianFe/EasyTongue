@@ -52,5 +52,23 @@
     "General": "一般的です",
     "Shortcuts": "Shortcuts",
     "Customize": "???"
+  },
+  "zh-CHS":
+  {
+    "General": "一般",
+    "Shortcuts": "Shortcuts",
+    "Customize": "???"
+  },
+  "hi":
+  {
+    "General": "सामान्य",
+    "Shortcuts": "शॉर्टकट",
+    "Customize": "???"
+  },
+  "pl":
+  {
+    "General": "Generał",
+    "Shortcuts": "Skróty",
+    "Customize": "???"
   }
 }
