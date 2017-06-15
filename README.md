@@ -1,5 +1,8 @@
 # EasyTongue
 
+## ⚠️ Information ⚠️
+This App doesn't work anymore, because the translation API www.transltr.org was shutdown. 
+
 ## Preview
 
 ### Easy to use translation app
@@ -35,6 +38,8 @@
 ### Define Shortcuts for a faster usage
 ![screenshot 4](https://florianfe.github.io/screenshots/easy-tongue/screenshot-4.png)
 
+<!--
 ## Download
 <li><a href="https://github.com/FlorianFe/EasyTongue/releases/download/v1.0.4/EasyTongue.dmg">Download for Mac (version 1.0.4)</a></li>
 <li><a href="https://github.com/FlorianFe/EasyTongue/releases/download/v1.0.4/EasyTongue.exe">Download for Windows (version 1.0.4)</a></li>
+-->
