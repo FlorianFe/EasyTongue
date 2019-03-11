@@ -1,7 +1,7 @@
 # EasyTongue
 
 ## ⚠️ Information ⚠️
-This App doesn't work anymore, because the translation API www.transltr.org was shutdown. 
+This App doesn't work anymore, because the used translation API was shutdown. 
 
 ## Preview
 
